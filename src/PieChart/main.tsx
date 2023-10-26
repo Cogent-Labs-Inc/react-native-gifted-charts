@@ -447,7 +447,7 @@ export const PieChartMain = (props: propTypes) => {
                       }
                     }
                   }}>
-                  {item.text || (showValuesAsLabels ? item.value + '' : '')}
+                  {item.text || (showValuesAsLabels ? item.value + '%' : '')}
                 </SvgText>
               </React.Fragment>
             );
